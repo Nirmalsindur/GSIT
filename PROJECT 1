@@ -1,0 +1,17 @@
+# Test Scenario 1: Verify Belgium is added to the country dropdown
+Test Case ID	Test Case Description	Expected Value
+TC_001	Verify Belgium is present in the country dropdown list	Belgium option should be displayed in the dropdown
+TC_002	Verify Belgium appears after USA in the dropdown list	Belgium should be positioned immediately after USA
+TC_003	Verify user can select Belgium from the dropdown	User should be able to select Belgium without error
+
+# Test Scenario 2: Verify behavior after selecting Belgium
+Test Case ID	Test Case Description	Expected Value
+TC_004	Verify a new tab/section appears upon selecting Belgium	A new tab or section should be displayed
+TC_005	Verify currency format is set to Pounds (£) when Belgium is selected	The currency format displayed should default to Pounds (£)
+TC_006	Verify the displayed currency format matches the mock-up	Currency format should visually match the mock-up design provided
+
+# Test Scenario 3: Verify Apply button functionality
+Test Case ID	Test Case Description	Expected Value
+TC_007	Verify "Apply" button is visible in the new tab/section	Apply button should be displayed
+TC_008	Verify "Apply" button is enabled by default	Apply button should be clickable and enabled on load
+TC_009	Verify clicking "Apply" applies the selection correctly	Selected country and currency format should be saved or submitted as intended
